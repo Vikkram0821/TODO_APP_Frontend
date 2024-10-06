@@ -119,7 +119,7 @@ body {
   }
 
   .icon {
-    margin-top: 10px; /* Space above the icon */
-    font-size: large; /* Ensure icon is large enough for touch targets */
+    margin-top: 10px;
+    font-size: 30px; /* Ensure icon is large enough for touch targets */
   }
 }
