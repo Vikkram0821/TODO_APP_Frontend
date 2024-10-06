@@ -60,3 +60,31 @@ body {
   white-space: normal;
   max-width: 500px;
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: large; /* Smaller font size for mobile */
+  }
+
+  .heading {
+    margin-top: 30px; /* Reduced for mobile */
+  }
+
+  .input {
+    font-size: large; /* Smaller font size for input */
+  }
+
+  .add {
+    padding: 8px; /* Smaller padding for mobile */
+    font-size: medium; /* Adjust font size for buttons */
+  }
+
+  .todo {
+    flex-direction: column; /* Stack icon and text vertically on mobile */
+    align-items: flex-start; /* Align items to the left */
+  }
+
+  .text {
+    max-width: 100%; /* Full width for text on mobile */
+  }
+}
